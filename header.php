@@ -35,9 +35,10 @@
 	-->
 		<div class="main-logo">
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-				<img src="<?php echo get_template_directory_uri(); ?>/images/tc-logo-square.png" class="tc-logo-left header-image" width="" height="" alt="" />
-			</a>
+				<!-- <img src="<?php echo get_template_directory_uri(); ?>/images/tc-logo-square.png" class="tc-logo-left header-image" width="" height="" alt="" /> -->
 				<div class="logo-text">Tech Continuum</div>
+			</a>
+				
 		</div>
 		<div class="head-img-group2">
 			<img src="<?php echo get_template_directory_uri(); ?>/images/tc-settings.png" />

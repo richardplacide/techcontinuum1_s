@@ -34,7 +34,7 @@
 		<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/tc-logo.png" class="tc-logo-left header-image" width="" height="" alt="" /></a>
 	-->
 		<div class="main-logo">
-			<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
+			<a class="home-link" href="<?php echo esc_url( home_url( '/' ) ); ?>">
 				<!-- <img src="<?php echo get_template_directory_uri(); ?>/images/tc-logo-square.png" class="tc-logo-left header-image" width="" height="" alt="" /> -->
 				<div class="logo-text">Tech Continuum</div>
 			</a>

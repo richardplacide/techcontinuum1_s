@@ -675,6 +675,10 @@ body {
 
 }
 
+.main-logo a:visited, .main-logo a:link {
+	color:#fff;
+}
+
 .tc-logo-left {	
 	margin-top: 15px;
 	float:left;
@@ -682,19 +686,19 @@ body {
 }
 
 .logo-text {
-	margin-left:0.5em;
-	margin-top:30px;
+	/*margin-left:0.5em;*/
+	margin-top:1em;
 	float:left;
 	/*width:240px;*/
 	height:100px;
-	font-size:3em;
+	font-size:4em;
 }
 
 
 
 .head-img-group2 {
 	width: 420px;
-	margin-top:70px;
+	margin-top:5em;
 	float:right;
 
 }
@@ -704,7 +708,7 @@ body {
 }
 
 .nav-block {
-	margin-top: 20px;
+	margin-top: 4.5em;
 	float:left;
 	width:100%;
 	font-family: 'Ubuntu', sans-serif;
@@ -719,8 +723,6 @@ body {
 
 	.nav-block a:hover {
 		color: #b23c2b;
-		font-weight: bolder;
-		background-color: #fff;
 	}
 
 
@@ -885,11 +887,12 @@ article a.read-more:link, article a.read-more:visited  {
 .site-footer {
 	background: #1180bc;
 	color:#fff;
-	font-size:0.7em;
+	font-size:0.9em;
 	text-align: center;
 	margin-top:2em;
-	padding: 0.5em 0 0.5em 0;
+	padding: 2em 0 0.5em 0;
 	font-family: 'Ubuntu', sans-serif;
+	height:4em;
 }
 
 .site-footer a:link, .site-footer a:visited {

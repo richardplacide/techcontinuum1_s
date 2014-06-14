@@ -60,7 +60,7 @@ function techcontinuum1_s_setup() {
 	add_theme_support( 'post-thumbnails' );
 
 	/**
-	 * This theme uses TWO wp_nav_menu() 
+	 * This theme uses TWO wp_nav_menu()
 	 */
 	register_nav_menus( array(
 		'primary' => __( 'Primary Menu', 'techcontinuum1_s' ),
@@ -121,8 +121,9 @@ function techcontinuum1_s_widgets_init() {
 		'before_title'  => '<h1 class="widget-title"><span class="icon-reorder"></span>',
 		'after_title'   => '</h1>',
 	) );
+	/*
 	register_sidebar(array(
-    'id' => 'header-widget-left-featured', 
+    'id' => 'header-widget-left-featured',
     'name' => __('Left featured', 'techcontinuum1_s'),
     'description' => __('Widget area below the header, left of slider','techcontinuum1_s'),
     'before_widget' => '<div class="left-featured">',
@@ -130,6 +131,7 @@ function techcontinuum1_s_widgets_init() {
     'before_title' => '<h4>',
     'after_title' => '</h4>'
 	));
+	*/
 }
 add_action( 'widgets_init', 'techcontinuum1_s_widgets_init' );
 
@@ -186,7 +188,7 @@ function wp_trim_words_mod( $text, $num_words = 55, $more = null ) {
 	if ( null === $more )
 		$more = __( '&hellip;' );
 	$original_text = $text;
-	
+
 	//$text = wp_strip_all_tags( $text );
 	//$allowed_tags = 'img, span';
 	//$text = strip_tags($text, $allowed_tags);

@@ -121,17 +121,26 @@ function techcontinuum1_s_widgets_init() {
 		'before_title'  => '<h1 class="widget-title"><span class="icon-reorder"></span>',
 		'after_title'   => '</h1>',
 	) );
-	/*
+
 	register_sidebar(array(
     'id' => 'header-widget-left-featured',
     'name' => __('Left featured', 'techcontinuum1_s'),
-    'description' => __('Widget area below the header, left of slider','techcontinuum1_s'),
+    'description' => __('Widget area below the header, left area','techcontinuum1_s'),
     'before_widget' => '<div class="left-featured">',
     'after_widget' => '</div>',
     'before_title' => '<h4>',
     'after_title' => '</h4>'
 	));
-	*/
+	register_sidebar(array(
+		'id' => 'header-widget-right-featured',
+		'name' => __('Right featured', 'techcontinuum1_s'),
+		'description' => __('Widget area below the header, right area','techcontinuum1_s'),
+		'before_widget' => '<div class="right-featured">',
+		'after_widget' => '</div>',
+		'before_title' => '<h4>',
+		'after_title' => '</h4>'
+	));
+	
 }
 add_action( 'widgets_init', 'techcontinuum1_s_widgets_init' );
 

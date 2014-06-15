@@ -17,10 +17,10 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
-			<div class="title-latest-article">
+			<div class="title-latest-articles">
 				<h1>Latest entries</h1>
 			</div>
-			<div class="bord-latest-article">
+			<div class="bord-latest-articles">
 
 			</div>
 

@@ -813,6 +813,7 @@ body {
 
 .title-latest-articles {
 	width: 160px;
+	float: left;
 
 }
 
@@ -823,6 +824,7 @@ body {
 
 .bord-latest-articles {
 	width: 600px;
+	float: left;
 	border-bottom: 1px solid #999;
 	padding-top: 2.5rem;
 }

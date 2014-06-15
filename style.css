@@ -634,7 +634,7 @@ Layout: Content-Sidebar
 	float: right;
 	overflow: hidden;
 	width: 22%;
-	margin-right:1%;
+	margin-right:20px;
 
 }
 .site-footer {
@@ -764,11 +764,15 @@ body {
 
 
 .left-featured, .right-featured {
-	width:480px;
+	width:460px;
 	height:300px;
 	float:left;
 	position: relative;
 
+}
+
+.right-featured {
+	margin-left: 20px;
 }
 
 .left-featured .widgettitle, .right-featured .widgettitle {
@@ -778,7 +782,7 @@ body {
 
 
 .left-featured img, .right-featured img {
-	width:480px;
+	width:460px;
 	height:300px;
 }
 /*
@@ -850,6 +854,7 @@ aside.widget {
 
 .widget-area {
 	font-size:0.8em;
+	padding-bottom: 1em;
 }
 
 .widget-area .widget-title {
@@ -871,8 +876,9 @@ aside.widget {
 
 .widget-area ul {
 	margin-top:0.5em;
-	margin-left:1.5em;
-	list-style: square url("images/white-square9.png");
+	margin-left: 1em;
+	padding-left: 1em;
+	list-style: none;
 }
 
 .widget-area ul a:link, .widget-area ul a:visited {

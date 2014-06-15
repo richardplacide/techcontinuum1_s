@@ -17,7 +17,13 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
-		<h1 class="title-latest-articles">Latest articles</h1>
+			<div class="title-latest-article">
+				<h1>Latest entries</h1>
+			</div>
+			<div class="bord-latest-article">
+
+			</div>
+
 		<?php if ( have_posts() ) : ?>
 
 			<?php /* Start the Loop */ ?>
@@ -29,7 +35,7 @@ get_header(); ?>
 					 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
 					 */
 					get_template_part( 'content', get_post_format() );
-					
+
 
 				?>
 

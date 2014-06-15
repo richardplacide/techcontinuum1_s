@@ -742,7 +742,7 @@ body {
 
 #featured {
 	height:360px;
-	margin: 20px;
+	margin: 40px 20px 20px 20px;
 	width:980px;
 
 
@@ -812,21 +812,22 @@ body {
 }
 
 .title-latest-articles {
-	width: 160px;
+	width: 180px;
 	float: left;
 
 }
 
 .title-latest-articles h1 {
-	font-size: 2.5rem;
+	font-size: 2.0rem;
 	color: #1180BC;
 }
 
 .bord-latest-articles {
-	width: 600px;
+	width: 530px;
 	float: left;
 	border-bottom: 1px solid #999;
-	padding-top: 2.5rem;
+	padding-top: 2.0rem;
+	margin-bottom: 3rem;
 }
 
 .entry-title {
@@ -837,6 +838,14 @@ body {
 .entry-title .entry-title-permalink {
 	text-decoration: none;
 	color: inherit;
+}
+
+aside.widget {
+	background-color: #1180bc;
+}
+
+#search {
+	background-color: #fff;
 }
 
 .widget-area {
@@ -850,7 +859,7 @@ body {
 	color:#fff;
 	padding-left:0.8em;
 	font-family: 'Ubuntu', sans-serif;
-	font-size: 1.2em;
+	font-size: 1.6em;
 	padding: 0.3em 0 0.3em 0.5em;
 
 
@@ -863,12 +872,12 @@ body {
 .widget-area ul {
 	margin-top:0.5em;
 	margin-left:1.5em;
-	list-style: square url("images/redorange-square.png");
+	list-style: square url("images/white-square9.png");
 }
 
 .widget-area ul a:link, .widget-area ul a:visited {
 	text-decoration: none;
-	color:#b23c2b;
+	color:#fff;
 }
 
 
@@ -906,6 +915,8 @@ article a.read-more:link, article a.read-more:visited  {
 	color:#1180bc;
 	text-decoration: none;
 }
+
+
 
 .site-footer {
 	background: #1180bc;

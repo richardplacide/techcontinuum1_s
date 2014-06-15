@@ -776,6 +776,10 @@ body {
 	text-align: center;
 }
 
+.left-featured img, .right-featured img {
+	width:480px;
+	height:300px;
+}
 /*
 .featured-slider {
 	float:left;
